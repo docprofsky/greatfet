@@ -1,4 +1,4 @@
-(module smd-proto-pad-hole (layer F.Cu) (tedit 57BE962A)
+(module smd-proto-pad-hole (layer F.Cu) (tedit 57BEB99C)
   (descr "SMD prototyping pad with unplated hole to bottom side for optional ground plane (or other signal)")
   (attr virtual)
   (fp_text reference REF** (at 0 3.04) (layer F.SilkS) hide
@@ -7,9 +7,7 @@
   (fp_text value smd-proto-pad-hole (at 0 2.04) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 connect rect (at 0 0) (size 1.2954 0.9144) (layers F.Cu F.Mask)
-    (clearance 3.556))
-  (pad 2 connect rect (at 0 0) (size 1.2954 0.9144) (layers B.Cu B.Mask)
-    (clearance 4.318))
-  (pad "" np_thru_hole circle (at 0 0) (size 0.762 0.762) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 connect rect (at 0 0) (size 1.2954 0.9144) (layers F.Cu F.Mask))
+  (pad 2 connect rect (at 0 0) (size 1.2954 0.9144) (layers B.Cu B.Mask))
+  (pad "" np_thru_hole circle (at 0 0) (size 0.762 0.762) (drill 0.762) (layers *.Cu *.Mask))
 )
