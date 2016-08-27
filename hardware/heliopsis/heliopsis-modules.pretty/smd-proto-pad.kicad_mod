@@ -1,0 +1,12 @@
+(module smd-proto-pad (layer F.Cu) (tedit 57C10338)
+  (descr "SMD prototyping pad. This is designed to be used on a 65x50mil grid; this configuration will leave 7mil between each pad.")
+  (attr virtual)
+  (fp_text reference REF** (at 0 3.04) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value smd-proto-pad (at 0 2.04) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 connect rect (at 0 0) (size 1.4732 1.0922) (layers F.Cu F.Mask)
+    (clearance 1.778))
+)
