@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
 
   (general
-    (links 0)
+    (links 141)
     (no_connects 0)
     (area 107.95 66.04 279.525801 124.460001)
     (thickness 1.6)
@@ -64,7 +64,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010a8_80000001)
+      (layerselection 0x010e8_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -83,7 +83,7 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 4)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
@@ -8206,6 +8206,27 @@
         (xy 144.973748 76.185858) (xy 144.959605 76.2) (xy 144.973748 76.214143) (xy 144.794143 76.393748) (xy 144.78 76.379605)
         (xy 144.765858 76.393748) (xy 144.586253 76.214143) (xy 144.600395 76.2) (xy 144.586253 76.185858) (xy 144.765858 76.006253)
         (xy 144.78 76.020395) (xy 144.794143 76.006253)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.381) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 139.065 88.265) (xy 172.72 88.265) (xy 172.72 76.835) (xy 180.34 76.835) (xy 180.34 109.22)
+        (xy 176.2506 109.8296) (xy 176.6824 112.9792) (xy 176.6824 113.665) (xy 172.085 113.665) (xy 172.085 107.315)
+        (xy 139.065 107.315)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 180.213 109.110528) (xy 176.231875 109.703988) (xy 176.18448 109.721169) (xy 176.147504 109.755436) (xy 176.126773 109.80139)
+        (xy 176.124777 109.84685) (xy 176.5554 112.987865) (xy 176.5554 113.538) (xy 172.212 113.538) (xy 172.212 107.315)
+        (xy 172.201994 107.26559) (xy 172.173553 107.223965) (xy 172.131159 107.196685) (xy 172.085 107.188) (xy 139.192 107.188)
+        (xy 139.192 88.392) (xy 172.72 88.392) (xy 172.76941 88.381994) (xy 172.811035 88.353553) (xy 172.838315 88.311159)
+        (xy 172.847 88.265) (xy 172.847 76.962) (xy 180.213 76.962)
       )
     )
   )
